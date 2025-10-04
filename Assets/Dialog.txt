@@ -1,49 +1,63 @@
 [title=INTRO-start]
-Je ne me souviens plus de rien.  
-Tout est noir et blanc… figé.  
-Comme si le monde avait perdu son souffle.  
-Mais parfois, au détour d’un pas, une couleur apparaît.  
-Un éclat fragile, vibrant, un souvenir.  
-Je dois les retrouver. Tous.  
-Peut-être qu’alors, je saurai qui je suis…  
+Tout est gris.  
+Le monde semble suspendu, comme en apnée.  
+Je marche sans savoir pourquoi, ni depuis combien de temps.  
+Et puis… une lueur.  
+Un éclat de couleur, fragile, presque timide.  
+Je sens qu’en la touchant, je pourrais me souvenir.  
+Je dois retrouver mes souvenirs.  
+Avant que le monde ne s’efface complètement.
 [title=INTRO-end]
 
 
 [title=souvenir-un-start]
-Je m’approche d’un vieux ballon rouge posé sur le sol.  
-En le touchant, une chaleur traverse mes doigts.  
-Des rires d’enfants éclatent dans ma tête,  
-des voix qui m’appellent par mon prénom.  
-Je me vois courir sous le soleil, libre, insouciant.  
-Le monde autour de moi semble reprendre vie, un instant.  
+Une montgolfière, minuscule dans le ciel terne.  
+En la regardant, une bourrasque me traverse le corps.  
+Le vent, la liberté, le vertige du ciel...  
+Je revois mes mains agrippées à une corde,  
+mon rire porté par les nuages.
+Je n’étais pas prisonnier alors.  
+Je volais.
 [title=souvenir-un-end]
 
 
 [title=souvenir-deux-start]
-Une tasse brisée sur une table.  
-Je la ramasse… et soudain, une odeur de café emplit l’air.  
-Une main effleure la mienne. Des yeux, doux et familiers.  
-Je ris, je parle — je ne veux pas que ce moment s’efface.  
-Puis tout disparaît.  
-La couleur s’estompe, mais le souvenir reste.  
+Une vieille valise, usée, abandonnée au bord du chemin.  
+Je la touche, et les images reviennent.  
+Des gares, des trains, des départs précipités.  
+Des promesses chuchotées : “Je reviendrai.”  
+Mais je ne sais plus si je suis jamais revenu.
 [title=souvenir-deux-end]
 
 
 [title=souvenir-trois-start]
-Un vieux carnet… couvert de poussière.  
-Je l’ouvre, et des mots s’envolent.  
-“Ne t’oublie pas.”  
-Les pages racontent mon histoire,  
-celle d’un rêveur qui craignait d’oublier le monde qu’il aimait.  
-Je comprends enfin : ces souvenirs,  
-ce sont les fragments de mon cœur.  
+Un ballon gonflable en forme de cœur.  
+Rouge vif, vibrant dans le vide.  
+Je tends la main — il s’échappe, s’élève doucement.  
+Un éclat d’enfance, une fête, des visages heureux.  
+Puis le ballon éclate dans le ciel.  
+Et le silence retombe comme une pluie.
 [title=souvenir-trois-end]
 
 
+[title=souvenir-quatre-start]
+Un grand tableau est posé ici ..
+Il représente un ancien temple, baigné d’une lumière dorée.  
+Je le fixe, et quelque chose en moi s’éveille.  
+Je me souviens d’un lieu réel — ou peut-être rêvé.  
+Un endroit où j’avais caché ce que j’avais de plus précieux :  
+un trésor, pas d’or, mais de sens.  
+Le temple était en moi depuis le début.  
+C’est ma mémoire que j’ai redécouverte.
+[title=souvenir-quatre-end]
+
+
 [title=FINALE-start]
-Tout est revenu.  
-Les couleurs, les sons, les visages.  
-Je ne suis plus une ombre dans un monde éteint.  
-Je suis celui qui se souvient.  
-Et dans chaque couleur, une vie renaît.  
+Je me tiens au centre de ce monde,  
+entouré de couleurs que j’ai ramenées à la vie.  
+La montgolfière, la valise, le ballon, la guitare…  
+chacun portait un fragment de moi.  
+Je me souviens maintenant.  
+Je n’étais pas perdu.  
+J’étais en train de me retrouver.
 [title=FINALE-end]
