@@ -1,0 +1,49 @@
+[title=INTRO-start]
+Je ne me souviens plus de rien.  
+Tout est noir et blanc… figé.  
+Comme si le monde avait perdu son souffle.  
+Mais parfois, au détour d’un pas, une couleur apparaît.  
+Un éclat fragile, vibrant, un souvenir.  
+Je dois les retrouver. Tous.  
+Peut-être qu’alors, je saurai qui je suis…  
+[title=INTRO-end]
+
+
+[title=souvenir-un-start]
+Je m’approche d’un vieux ballon rouge posé sur le sol.  
+En le touchant, une chaleur traverse mes doigts.  
+Des rires d’enfants éclatent dans ma tête,  
+des voix qui m’appellent par mon prénom.  
+Je me vois courir sous le soleil, libre, insouciant.  
+Le monde autour de moi semble reprendre vie, un instant.  
+[title=souvenir-un-end]
+
+
+[title=souvenir-deux-start]
+Une tasse brisée sur une table.  
+Je la ramasse… et soudain, une odeur de café emplit l’air.  
+Une main effleure la mienne. Des yeux, doux et familiers.  
+Je ris, je parle — je ne veux pas que ce moment s’efface.  
+Puis tout disparaît.  
+La couleur s’estompe, mais le souvenir reste.  
+[title=souvenir-deux-end]
+
+
+[title=souvenir-trois-start]
+Un vieux carnet… couvert de poussière.  
+Je l’ouvre, et des mots s’envolent.  
+“Ne t’oublie pas.”  
+Les pages racontent mon histoire,  
+celle d’un rêveur qui craignait d’oublier le monde qu’il aimait.  
+Je comprends enfin : ces souvenirs,  
+ce sont les fragments de mon cœur.  
+[title=souvenir-trois-end]
+
+
+[title=FINALE-start]
+Tout est revenu.  
+Les couleurs, les sons, les visages.  
+Je ne suis plus une ombre dans un monde éteint.  
+Je suis celui qui se souvient.  
+Et dans chaque couleur, une vie renaît.  
+[title=FINALE-end]
