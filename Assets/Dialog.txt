@@ -22,7 +22,7 @@ Je volais.
 
 
 [title=souvenir-deux-start]
-Une vieille valise, usée, abandonnée au bord du chemin.  
+Une vieille valise, usée, abandonnée lachement.  
 Je la touche, et les images reviennent.  
 Des gares, des trains, des départs précipités.  
 Des promesses chuchotées : “Je reviendrai.”  
@@ -33,7 +33,6 @@ Mais je ne sais plus si je suis jamais revenu.
 [title=souvenir-trois-start]
 Un ballon gonflable en forme de cœur.  
 Rouge vif, vibrant dans le vide.  
-Je tends la main — il s’échappe, s’élève doucement.  
 Un éclat d’enfance, une fête, des visages heureux.  
 Puis le ballon éclate dans le ciel.  
 Et le silence retombe comme une pluie.
