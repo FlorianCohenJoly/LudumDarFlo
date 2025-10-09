@@ -1,4 +1,4 @@
-﻿ using UnityEngine;
+﻿using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -75,6 +75,17 @@ namespace StarterAssets
         [Tooltip("For locking the camera position on all axis")]
         public bool LockCameraPosition = false;
 
+        [Header("Footstep FX")]
+        [Tooltip("Le prefab de particules pour les flaques de pas")]
+        public GameObject FootstepParticlePrefab;
+
+        [Tooltip("Distance maximale vers le bas pour détecter le sol")]
+        public float FootstepRayDistance = 1.5f;
+
+        private float _nextFootFXTime = 0f;
+        public float FootstepFXInterval = 0.4f; // temps entre deux pas environ
+
+
         // cinemachine
         private float _cinemachineTargetYaw;
         private float _cinemachineTargetPitch;
@@ -135,7 +146,7 @@ namespace StarterAssets
         private void Start()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
-            
+
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
@@ -159,6 +170,8 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            HandleFootstepFX();
+
         }
 
         private void LateUpdate()
@@ -373,13 +386,54 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
+                // --- SON DE PAS ---
                 if (FootstepAudioClips.Length > 0)
                 {
                     var index = Random.Range(0, FootstepAudioClips.Length);
-                    AudioSource.PlayClipAtPoint(FootstepAudioClips[index], transform.TransformPoint(_controller.center), FootstepAudioVolume);
+                    AudioSource.PlayClipAtPoint(FootstepAudioClips[index],
+                        transform.TransformPoint(_controller.center),
+                        FootstepAudioVolume);
+                }
+
+                // --- PARTICULES DE PAS ---
+                if (FootstepParticlePrefab != null && Grounded)
+                {
+                    // Lance un raycast vers le bas pour trouver la surface
+                    if (Physics.Raycast(transform.position + Vector3.up * 0.2f, Vector3.down, out RaycastHit hit, FootstepRayDistance))
+                    {
+                        // Crée la flaque à la position exacte du contact
+                        Vector3 spawnPos = hit.point + Vector3.up * 0.02f; // léger offset pour éviter clipping
+                        Quaternion spawnRot = Quaternion.FromToRotation(Vector3.up, hit.normal); // s’aligne à la pente
+
+                        // Rotation aléatoire pour variété
+                        spawnRot *= Quaternion.Euler(0, Random.Range(0f, 360f), 0);
+
+                        Instantiate(FootstepParticlePrefab, spawnPos, spawnRot);
+                    }
                 }
             }
         }
+
+        private void HandleFootstepFX()
+        {
+            if (Grounded && _speed > 0.1f && Time.time > _nextFootFXTime)
+            {
+                _nextFootFXTime = Time.time + FootstepFXInterval;
+
+                if (FootstepParticlePrefab != null)
+                {
+                    if (Physics.Raycast(transform.position + Vector3.up * 0.2f, Vector3.down, out RaycastHit hit, FootstepRayDistance))
+                    {
+                        Vector3 spawnPos = hit.point + Vector3.up * 0.02f;
+                        Quaternion spawnRot = Quaternion.FromToRotation(Vector3.up, hit.normal);
+                        spawnRot *= Quaternion.Euler(0, Random.Range(0f, 360f), 0);
+
+                        Instantiate(FootstepParticlePrefab, spawnPos, spawnRot);
+                    }
+                }
+            }
+        }
+
 
         private void OnLand(AnimationEvent animationEvent)
         {
